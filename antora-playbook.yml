@@ -5,14 +5,21 @@ content:
   sources:
   - url: https://gitlab.com/antora/demo/demo-component-a.git
     branches: HEAD
+    edit_url: '{web_url}/blob/{refname}/{path}'
   - url: https://gitlab.com/antora/demo/demo-component-b.git
     branches: [v2.0, v1.0]
     start_path: docs
+    edit_url: '{web_url}/blob/{refname}/{path}'
 ui:
   bundle:
     url: https://github.com/uyuni-project/uyuni-docs/blob/master/branding/default-ui/suma/ui-bundle.zip?raw=true
     snapshot: true
   supplemental_files: ./susecom-2023
+asciidoc:
+  attributes:
+    page-pagination: ''
+  extensions:
+  - '@asciidoctor/tabs'
 antora:
   extensions:
   - require: '@antora/lunr-extension'
