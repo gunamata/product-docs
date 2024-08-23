@@ -1,20 +1,14 @@
 site:
   title: Antora Docs
-  start_page: component-b::index.adoc
+  start_page: rp-antora:en:rancher-manager.adoc
 content:
   sources:
-  - url: https://gitlab.com/antora/demo/demo-component-a.git
-    branches: HEAD
-    edit_url: '{web_url}/blob/{refname}/{path}'
-  - url: https://gitlab.com/antora/demo/demo-component-b.git
-    branches: [v2.0, v1.0]
-    start_path: docs
-    edit_url: '{web_url}/blob/{refname}/{path}'
+  - url: ./
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/rancher/product-docs-ui/blob/main/build/ui-bundle.zip?raw=true
     snapshot: true
-  supplemental_files: ./susecom-2023
+  supplemental_files: ./product-docs-supplemental-files
 asciidoc:
   attributes:
     page-pagination: ''

@@ -1,0 +1,6 @@
+= Prometheus Federator 指南
+
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/prometheus-federator-guides/enable-prometheus-federator.adoc[启用 Prometheus Operator]
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/prometheus-federator-guides/uninstall-prometheus-federator.adoc[卸载 Prometheus Operator]
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/prometheus-federator-guides/customize-grafana-dashboards.adoc[自定义 Grafana 仪表板]
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/prometheus-federator-guides/set-up-workloads.adoc[设置工作负载]

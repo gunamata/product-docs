@@ -1,0 +1,3 @@
+= 下游集群配置
+
+以下文档将讨论xref:./node-template-configuration.adoc[节点模板配置]和xref:./machine-configuration.adoc[主机配置]。

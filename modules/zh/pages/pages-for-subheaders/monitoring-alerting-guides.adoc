@@ -1,0 +1,8 @@
+= Monitoring 指南
+
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/enable-monitoring.adoc[启用 monitoring]
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/uninstall-monitoring.adoc[卸载 monitoring]
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/set-up-monitoring-for-workloads.adoc[Monitoring 工作负载]
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/customize-grafana-dashboard.adoc[自定义 Grafana 仪表板]
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/create-persistent-grafana-dashboard.adoc[持久化 Grafana 仪表板]
+* xref:../how-to-guides/advanced-user-guides/monitoring-alerting-guides/debug-high-memory-usage.adoc[调试高内存使用率]

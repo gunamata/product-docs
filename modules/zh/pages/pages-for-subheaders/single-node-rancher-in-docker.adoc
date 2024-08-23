@@ -1,0 +1,3 @@
+= Docker 中的单节点 Rancher
+
+以下文档将讨论 Docker 安装的 xref:../reference-guides/single-node-rancher-in-docker/http-proxy-configuration.adoc[HTTP 代理配置]和xref:../reference-guides/single-node-rancher-in-docker/advanced-options.adoc[高级选项]。

@@ -1,0 +1,13 @@
+= 高级配置
+
+=== Alertmanager
+
+有关配置 Alertmanager 自定义资源的信息，请参阅xref:../how-to-guides/advanced-user-guides/monitoring-v2-configuration-guides/advanced-configuration/alertmanager.adoc[此页面]。
+
+=== Prometheus
+
+有关配置 Prometheus 自定义资源的信息，请参阅xref:../how-to-guides/advanced-user-guides/monitoring-v2-configuration-guides/advanced-configuration/prometheus.adoc[此页面]。
+
+=== PrometheusRules
+
+有关配置 Prometheus 自定义资源的信息，请参阅xref:../how-to-guides/advanced-user-guides/monitoring-v2-configuration-guides/advanced-configuration/prometheusrules.adoc[此页面]。

@@ -1,0 +1,3 @@
+= 节点模板配置
+
+要了解节点模板配置，请参阅xref:../reference-guides/cluster-configuration/downstream-cluster-configuration/node-template-configuration/amazon-ec2.adoc[EC2 节点模板配置]、xref:../reference-guides/cluster-configuration/downstream-cluster-configuration/node-template-configuration/digitalocean.adoc[DigitalOcean 节点模板配置]、xref:../reference-guides/cluster-configuration/downstream-cluster-configuration/node-template-configuration/azure.adoc[Azure 节点模板配置]、xref:../reference-guides/cluster-configuration/downstream-cluster-configuration/node-template-configuration/vsphere.adoc[vSphere 节点模板配置]和 xref:../reference-guides/cluster-configuration/downstream-cluster-configuration/node-template-configuration/nutanix.adoc[Nutanix 节点模板配置]。

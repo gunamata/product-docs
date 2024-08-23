@@ -1,0 +1,6 @@
+= Rancher 备份配置参考
+
+* xref:../reference-guides/backup-restore-configuration/backup-configuration.adoc[备份配置]
+* xref:../reference-guides/backup-restore-configuration/restore-configuration.adoc[还原配置]
+* xref:../reference-guides/backup-restore-configuration/storage-configuration.adoc[存储位置配置]
+* xref:../reference-guides/backup-restore-configuration/examples.adoc[Backup 和 Restore 自定义资源示例]

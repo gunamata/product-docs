@@ -1,0 +1,18 @@
+= 部署 Rancher Server
+
+你可使用以下指南之一，在你选择的提供商中部署和配置 Rancher 和 Kubernetes 集群。
+
+* xref:aws.adoc[AWS]（使用 Terraform）
+* xref:aws-marketplace.adoc[AWS Marketplace]（使用 Amazon EKS）
+* xref:azure.adoc[Azure]（使用 Terraform）
+* xref:digitalocean.adoc[DigitalOcean]（使用 Terraform）
+* xref:gcp.adoc[GCP]（使用 Terraform）
+* xref:hetzner-cloud.adoc[Hetzner Cloud]（使用 Terraform）
+* xref:linode.adoc[Linode] (使用 Terraform)
+* xref:vagrant.adoc[Vagrant]
+* xref:equinix-metal.adoc[Equinix Metal]
+* xref:outscale-qs.adoc[Outscale]（使用 Terraform）
+
+如有需要，你可以查看以下指南以了解分步步骤。如果你需要在其他提供商中或本地运行 Rancher，或者你只是想看看它是多么容易上手，你可阅读以下指南：
+
+* xref:helm-cli.adoc[手动安装]

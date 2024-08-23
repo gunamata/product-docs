@@ -1,0 +1,9 @@
+= Monitoring V2 配置
+
+本文介绍了在 Rancher 中配置 Monitoring V2 的必要选项：
+
+* xref:../reference-guides/monitoring-v2-configuration/receivers.adoc[接收器配置]
+* xref:../reference-guides/monitoring-v2-configuration/routes.adoc[路由配置]
+* xref:../reference-guides/monitoring-v2-configuration/servicemonitors-and-podmonitors.adoc[ServiceMonitor 和 PodMonitor 配置]
+* xref:../reference-guides/monitoring-v2-configuration/helm-chart-options.adoc[Helm Chart 选项]
+* xref:../reference-guides/monitoring-v2-configuration/examples.adoc[示例]

@@ -1,0 +1,6 @@
+= Prometheus Federator 指南
+
+* xref:enable-prometheus-federator.adoc[启用 Prometheus Federator]
+* xref:uninstall-prometheus-federator.adoc[卸载 Prometheus Federator]
+* xref:customize-grafana-dashboards.adoc[自定义 Grafana 仪表板]
+* xref:set-up-workloads.adoc[为工作负载设置 Prometheus Federator]
