@@ -1,5 +1,6 @@
 site:
   title: Antora Docs
+  url: /
   start_page: rp-antora:en:rancher-manager.adoc
 content:
   sources:
