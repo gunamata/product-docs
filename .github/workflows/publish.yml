@@ -2,14 +2,12 @@ name: Rancher product documentation - publish to GitHub Pages with Lunr Search E
 on:
   push:
     branches: [main]
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 concurrency:
   group: github-pages
   cancel-in-progress: false
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 jobs:
@@ -34,14 +32,18 @@ jobs:
     - name: Generate Site
       run: make local
     - name: Copy site to gh-pages branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git fetch origin
         git checkout -B gh-pages
+        git reset --hard HEAD  # Ensures a clean working directory
         cp -r build/site/* .
         git add .
         git commit -m "Update GitHub Pages with latest build"
-        git push origin gh-pages --force
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages --force
     - name: Upload Artifacts
       uses: actions/upload-pages-artifact@v2
       with:
