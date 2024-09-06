@@ -31,14 +31,14 @@ jobs:
       run: make environment
     - name: Generate Site
       run: make local
-    - name: Deploy to gh-pages branch
+    - name: Push the static site content to gh-pages branch
       run: |
         git config --global user.name "${{ github.actor }}"
         git config --global user.email "${{ github.actor }}@users.noreply.github.com"
         mv build/site ../site-temp
         git checkout --orphan gh-pages
         git rm -rf .
-        rm -rf node_modules 
+        rm -rf node_modules tmp
         mv ../site-temp/* .
         git add .
         git commit -m "Deploy to gh-pages branch"
